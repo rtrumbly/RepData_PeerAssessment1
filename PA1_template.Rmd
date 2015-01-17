@@ -34,9 +34,9 @@ index = which(means ==max(means))
 max.interval = activity$interval[index]
 max.interval
 ```
-  The mean number of steps per day was 'r mean.daily'.
-  The median number of steps per day was 'r median.daily'.
-  The interval with the maximum number of steps was 'r max.interval'.
+  The mean number of steps per day was `r mean.daily`.
+  The median number of steps per day was `r median.daily`.
+  The interval with the maximum number of steps was `r max.interval`.
   
 ## Imputing missing values
 ```{r}
@@ -58,9 +58,9 @@ mean.daily2
 median.daily2 = median(daily2.sums$x)
 median.daily2
 ```
-The total number of missing values is 'r total.missing'.
-The mean daily activity inlcuding the imputed missing values is 'r mean.daily2'.
-The median daily activity inlcuding the imputed missing values is 'r median.daily2'.
+The total number of missing values is `r total.missing`.
+The mean daily activity inlcuding the imputed missing values is `r mean.daily2`.
+The median daily activity inlcuding the imputed missing values is `r median.daily2`.
 The mean and median values for the data including the imputed values are both higher than with the data without the imputed values, as might be expected. 
 
 ## Are there differences in activity patterns between weekdays and weekends?
