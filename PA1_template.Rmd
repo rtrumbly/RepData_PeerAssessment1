@@ -87,4 +87,17 @@ par(mfrow=c(1,2))
 plot(means.wd ~ activity$interval[1:288], type = 'l', xlab= 'interval', main = 'weekday')
 plot(means.we ~ activity$interval[1:288], type = 'l', xlab= 'interval', main = 'weekend')
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
 There are a number of differences between the pattern of activity on weekdays and weekends. Activity starts earlier in the day on the weekdays, but there is more overall activity on the weekends.
